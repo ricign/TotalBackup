@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<!-- 
+	<Preference android:title="@string/titleBackupSettings"
+		android:summary="@string/summaryBackupSettings" android:key="Backup" />
+	<Preference android:summary="@string/summaryRestoreSettings"
+		android:title="@string/titleRestoreSettings" android:key="Restore" />
+	-->
+	<Preference android:summary="@string/summaryOnline"
+		android:title="@string/titleOnline" android:key="Online" />
+	<Preference android:key="Auto" android:title="@string/titleAuto"
+		android:summary="@string/summaryAuto" />
+	<Preference android:title="@string/about" android:key="About"></Preference>
+</PreferenceScreen>

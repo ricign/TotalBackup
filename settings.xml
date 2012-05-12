@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<Preference android:title="@string/titleSchedule"
+		android:summary="@string/summarySchedule" android:key="Schedule"></Preference>
+	<CheckBoxPreference android:summary="@string/summaryOnline"
+		android:title="@string/titleOnline" android:key="Online"></CheckBoxPreference>
+	<Preference android:title="@string/titleSchedule"
+		android:summary="@string/summarySchedule" android:key="Schedule"></Preference>
+
+</PreferenceScreen>

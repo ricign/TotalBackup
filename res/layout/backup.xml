@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<LinearLayout android:id="@+id/LinearLayoutTop"
+		android:orientation="vertical" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@android:drawable/title_bar"
+		android:padding="5dp">
+		
+		<TextView android:id="@+id/statusText" android:text="@string/statusText"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:textColor="#000000"/>
+	
+		<ProgressBar android:id="@+id/mainProgressBar"
+			style="?android:attr/progressBarStyleHorizontal" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" />
+	</LinearLayout>
+
+	<ScrollView android:layout_height="fill_parent" android:id="@+id/reportScrollView"
+		android:layout_width="fill_parent" android:layout_weight="1">
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:layout_width="fill_parent" android:layout_height="fill_parent">
+			<TextView android:id="@+id/reportText" android:text="@string/reportText"
+					android:layout_width="fill_parent" android:layout_height="fill_parent"/>
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout android:id="@+id/LinearLayoutBottom"
+		android:orientation="horizontal" 
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content" 
+		android:background="@android:drawable/bottom_bar"
+        android:gravity="center_vertical"
+        android:padding="5dp">
+		
+		<Button android:id="@+id/backupButton" android:text="@string/backup"
+			android:layout_height="wrap_content" android:layout_width="fill_parent" />
+	</LinearLayout>
+</LinearLayout>

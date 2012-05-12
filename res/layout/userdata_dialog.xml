@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_height="wrap_content" android:layout_width="fill_parent">
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:orientation="vertical" android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+
+			<CheckBox android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/smses"
+				android:id="@+id/smsCheckBox" android:checked="true"
+				android:layout_weight="1" />
+			<CheckBox android:text="@string/calls" android:id="@+id/callsCheckBox"
+				android:layout_width="fill_parent" android:layout_height="wrap_content"
+				android:checked="true" android:layout_weight="1" />
+			<CheckBox android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/contacts"
+				android:id="@+id/contactsCheckBox" android:checked="true"
+				android:layout_weight="1" />
+			<CheckBox android:layout_width="fill_parent"
+				android:layout_height="wrap_content" android:text="@string/bookmarks"
+				android:id="@+id/bookmarksCheckBox" android:checked="true"
+				android:layout_weight="1" />
+
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout android:id="@+id/LinearLayout03"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:background="@android:drawable/bottom_bar" android:gravity="center_vertical">
+		<Button android:id="@+id/ok" android:text="@string/ok"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1" />
+		<Button android:id="@+id/cancelButton" android:text="@string/cancel"
+			android:layout_height="wrap_content" android:layout_width="fill_parent"
+			android:layout_weight="1" />
+	</LinearLayout>
+</LinearLayout>

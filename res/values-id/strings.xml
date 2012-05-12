@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Total Backup</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restore</string>
+    <string name="ok">Ok</string>
+  	<string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+
+    <string name="statusText">Ready ...</string>
+    <string name="reportText">Total Backup v1.0\nKlik backup/restore untuk memulai</string>
+    <string name="reportTextBackup">Berhasil menyimpan</string>
+    <string name="reportTextRestore">Berhasil merestore</string>
+    
+    <!-- User Data -->
+    <string name="smses">SMS/MMS</string>
+    <string name="calls">Call History</string>
+    <string name="contacts">Contact</string>
+    <string name="bookmarks">Bookmark</string>
+    
+    <!-- Preference -->
+    <string name="titleBackupSettings">Backup Setting</string>
+  	<string name="summaryBackupSettings">Backup Setting summary</string>
+  	<string name="titleRestoreSettings">Restore Setting</string>
+  	<string name="summaryRestoreSettings">Backup Setting summary</string>
+    <string name="titleOnline">Online Account</string>
+  	<string name="summaryOnline">Menyimpan data di Internet</string> 
+  	<string name="titleAuto">Auto Backup</string>
+  	<string name="summaryAuto">Otomatis menyimpan data</string> 
+
+    <!-- Menu/Preference -->
+    <string name="about">About</string>
+  	<string name="aboutText">Developed by:\nhttp://durian.mobi</string> 
+   
+   <string name="help">Help</string>
+   <string name="helpText"><b>Online Account: (Pro Only)</b>
+\nAnda dapat menyimpan data ke internet sehingga dapat restore dari/ke HP lain (Android/Blackberry/Symbian).
+\n
+\n<b>Auto Backup: (Pro Only)</b>
+\nOtomatis menyimpan data sesuai dengan jadwal yg ditentukan.
+\n
+\nDapatkan Total Backup Pro di TMarket
+\nhttp://durian.mobi/tbackup/id
+	 </string>       
+
+</resources>
